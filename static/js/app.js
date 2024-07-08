@@ -75,7 +75,7 @@ function buildCharts(sample) {
     // Mapping otu_labels to bar text and reversing
     let topTenLabels = otu_labels.slice(0, 10).reverse();
 
-    // Build a Bar Chart and reversing x and y for orientation 'h' purposes
+    // Build a Bar Chart and reversing for orientation 'h' purposes
     let barData = {
       x: topTen.reverse(),
       y: yticks,
