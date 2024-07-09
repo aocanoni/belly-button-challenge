@@ -53,6 +53,7 @@ function buildCharts(sample) {
       }
     };
 
+    // Setting bubble chart layout
     let bubbleLayout = {
       title: {
         text: "Bacteria Cultures Per Sample",
@@ -93,6 +94,7 @@ function buildCharts(sample) {
       orientation: "h"
     };
 
+    // Setting bar chart layout
     let barLayout = {
       title: {
         text: "Top 10 Bacteria Cultures Found",
