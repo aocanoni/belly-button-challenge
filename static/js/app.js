@@ -23,7 +23,7 @@ function buildMetadata(sample) {
 
       // Append items with key and value and setting them to bold using html
       let demoInfoLabel = panel.append("li");
-      demoInfoLabel.html(`<strong>${upKey}: </strong><span style= "color: blue;">${upValue}</span>`);
+      demoInfoLabel.html(`<strong>${upKey}: </strong><span style= "color: darkslateblue;">${upValue}</span>`);
     });
   });
 }
