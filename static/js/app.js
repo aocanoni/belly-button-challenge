@@ -55,8 +55,15 @@ function buildCharts(sample) {
 
     let bubbleLayout = {
       title: "Bacteria Cultures Per Sample",
-      xaxis: { title: "OTU ID" },
-      yaxis: { title: "Number of Bacteria"}
+      titlefont : {
+        weight: 'bold'
+      },
+      xaxis: { 
+        title: "OTU ID" 
+      },
+      yaxis: { 
+        title: "Number of Bacteria"
+      }
     };
 
     // Render the Bubble Chart
@@ -86,6 +93,9 @@ function buildCharts(sample) {
 
     let barLayout = {
       title: "Top 10 Bacteria Cultures Found",
+      titlefont: {
+        weight: 'bold'
+      },
       xaxis: { title: "Number of Bacteria" },
     };
 
